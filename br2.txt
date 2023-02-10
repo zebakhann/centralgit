@@ -1,0 +1,11 @@
+TEMPORARY COMMITS
+Temporarily store modified, tracked files in order to change branches
+IGNORING PATTERNS git stash
+Preventing unintentional staging or commiting of files Save modified and staged changes
+logs/
+*.notes
+pattern*/ git stash list
+Save a file with desired patterns as .gitignore with either direct string
+matches or wildcard globs. git stash pop
+git config --global core.excludesfile [file] git stash drop
+system wide ignore pattern for all local repositories discard the changes from top of stash stack
